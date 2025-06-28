@@ -606,6 +606,7 @@ text-transform: capitalize;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
               visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     padding: 72px 24px 24px 24px;
 }
 
 
@@ -669,12 +670,12 @@ text-transform: capitalize;
   text-align: center;
   color: var(--text-color, #2e2f42);
   margin-top: 12px;
-  margin-bottom: 40px;
+   margin-bottom: 16px;
 }
 
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px; 
 }
 
 
@@ -736,9 +737,10 @@ text-transform: capitalize;
   display: block;
   margin-bottom: 8px;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17; 
   letter-spacing: 0.04em;
   color: #8e8f99;
+  margin-bottom: 4px;
 }
 
 .checkbox-wrapper {
@@ -752,6 +754,7 @@ text-transform: capitalize;
   color: var(--text-color-muted, #8e8f99);
   display: inline-flex;
   align-items: center;
+    margin-bottom: 16px;
 }
 
 .custom-checkbox {
