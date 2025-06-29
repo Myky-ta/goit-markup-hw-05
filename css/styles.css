@@ -756,7 +756,6 @@ text-transform: capitalize;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--text-color-muted, #8e8f99);
-  display: inline-flex;
   align-items: center;
     margin-bottom: 16px;
 }
